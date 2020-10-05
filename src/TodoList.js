@@ -13,10 +13,10 @@ const TodoList = () => {
     <div className="">
       {todos.map((todo) => {
         return (
-          <h2 className="float-left  border-bottom  todo">
+          <h2 className="float-left border todo">
             <span className="delete">
               <i
-                className="material-icons text-danger border icon"
+                className="material-icons text-danger  icon"
                 onClick={() => {
                   dispatch(deleteTodo(todo.id));
                 }}
