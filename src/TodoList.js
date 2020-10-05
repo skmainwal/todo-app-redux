@@ -13,7 +13,7 @@ const TodoList = () => {
     <div className="">
       {todos.map((todo) => {
         return (
-          <h2 className="float-left border todo">
+          <h2 className="float-left border border-primary todo">
             <span className="delete">
               <i
                 className="material-icons text-danger  icon"
